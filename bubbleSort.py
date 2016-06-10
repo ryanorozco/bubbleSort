@@ -1,7 +1,7 @@
 import random
 
 my_randoms = random.sample(xrange(100001), 100)
-
+#this will generate an array with 100 random numbers ranging from 0-100000
 
 def bubbleSort(unsorted_list):
     length = len(unsorted_list) - 1
