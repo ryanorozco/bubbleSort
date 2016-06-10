@@ -1,5 +1,6 @@
-import random
 
+import random
+#gather array of 100 random numbers with range of 0-100000. 
 my_randoms = random.sample(xrange(100001), 100)
 
 
